@@ -1,0 +1,37 @@
+{
+  "host": "127.0.0.1",
+  "port": 6688,
+
+  "allowedOrigins": ["https://his4-dev.vnpthis.vn"],
+
+  "hisSharedSecret": "",
+  "tenantId": "bv-xyz",
+
+  "licenseKey": "",
+  "pluginDomain": "his4-dev.vnpthis.vn",
+  "pluginPorts": [4433, 4434, 4435, 9201, 9202],
+
+  "certificateSerial": "",
+  "tsaUrl": "",
+  "tsaUsername": "",
+  "tsaPassword": "",
+
+  "signTimeoutMs": 15000,
+  "jobTtlMinutes": 30,
+  "maxPdfBytes": 20971520,
+  "useNativeSigner": true,
+  "defaultPin": "",
+
+  "tunnel": {
+    "enabled": true,
+    "token": "",
+    "exePath": ""
+  },
+  "telegram": {
+    "enabled": false,
+    "botToken": "",
+    "chatId": "",
+    "minLevel": "warn",
+    "sendLevels": ["warn", "error"]
+  }
+}
